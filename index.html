@@ -41,19 +41,40 @@
     </header>
     <main class="px-20">
         <!-- list items -->
-        <div class="flex justify-between">
-            <div><a class="text-xl" href="">Home</a></div>
-            <div><a class="text-xl" href="">Home</a></div>
-            <div><a class="text-xl" href="">Breaking News</a></div>
-            <div><a class="text-xl" href="">Regular News</a></div>
-            <div><a class="text-xl" href="">International News</a></div>
-            <div><a class="text-xl" href="">Sports News</a></div>
-            <div><a class="text-xl" href="">Intertenment News</a></div>
-            <div><a class="text-xl" href="">Culture News</a></div>
-            <div><a class="text-xl" href="">Arts News</a></div>
-            <div><a class="text-xl" href="">All News</a></div>
+        <div id="category-items" class="flex justify-between mb-10">
+        </div>
+        <div class="card lg:card-side bg-base-100 shadow-xl">
+            <figure><img src="https://placeimg.com/400/400/arch" alt="Album"></figure>
+            <div class="card-body justify-items-end">
+                <h2 class="card-title">New album is released!</h2>
+                <p>Click the button to listen on Spotiwhy app.</p>
+                <div class="flex justify-between">
+                    <div class="flex justify-between">
+                        <div class="flex">
+                            <div class="dropdown dropdown-end ">
+                                <label tabindex="0" class="btn btn-circle avatar">
+                                    <div class="w-10 rounded-full">
+                                        <img src="img/news.jpg" />
+                                    </div>
+                                </label>
+                            </div>
+                            <h5 class="text-xl">name</h5>
+                        </div>
+                        <div class="my-50">
+                            <h5 class="text-xl">Viewers</h5>
+                        </div>
+                    </div>
+                    <div>
+                        <button>--></button>
+                    </div>
+                </div>
+            </div>
+        </div>
         </div>
     </main>
+
+    <!-- JsFile -->
+    <script src="js/app.js"></script>
 </body>
 
 </html>
